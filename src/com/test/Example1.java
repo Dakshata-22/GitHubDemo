@@ -12,5 +12,7 @@ public class Example1 {
 		list.add("bhanji");
 		System.out.println(list);
 		
+		list.stream().forEach(x  -> System.out.println(x));
+		
 	}
 }
