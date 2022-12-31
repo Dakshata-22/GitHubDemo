@@ -10,6 +10,9 @@ public class HashSetDemo {
 		hs.add(10);
 		hs.add(20);
 		hs.add(30);
-		System.out.println(hs);
+		
+		for (Integer i : hs){
+			
+			System.out.println(i);
 	}
 }
