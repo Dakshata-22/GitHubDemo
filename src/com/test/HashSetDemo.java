@@ -10,8 +10,9 @@ public class HashSetDemo {
 		hs.add(10);
 		hs.add(20);
 		hs.add(30);
-		System.out.println(hs);
+
 		
 		hs.stream().forEach(x -> System.out.println(x));
+
 	}
 }
